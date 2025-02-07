@@ -102,7 +102,7 @@ ls -l /devops_workspace/project_notes.txt
 ```
 
 ---
-# Log Analysis in DevOps
+# Log Analysis Task
 
 ## **3. Task**
 Logs are crucial in DevOps! You’ll analyze logs using the `Linux_2k.log` file from LogHub (GitHub Repo).
@@ -110,14 +110,13 @@ Logs are crucial in DevOps! You’ll analyze logs using the `Linux_2k.log` file 
 Download the log file from the repository.
 
 - Extract insights using commands:
-- Use `grep` to find all occurrences of the word "error".
-- Use `awk` to extract timestamps and log levels.
-- Find the most frequent log entry using `awk`
+ - Use `grep` to find all occurrences of the word "error".
+ - Use `awk` to extract timestamps and log levels.
+ - Find the most frequent log entry using `awk`
 
 
-### Steps to Complete the Task
 
-### **1.Copy And Store**
+### 1. **Copy And Store**
 
 **Copy the logs from (GitHubRepo) and paste it into `var/log/devops.log`**
 
@@ -125,7 +124,6 @@ Download the log file from the repository.
 
 ```
 vim devops.log
-
 ```
 ### 2. **Extract Insights Using Commands**
 #### **Find all occurrences of the word "error" using `grep`**
@@ -145,6 +143,6 @@ awk '{print $0}' Linux_2k.log | sort | uniq -c | sort -nr | head -10
 ```
  **Review the most frequent log entries**
 ```bash
-head -10 Linux_2k.log
+head -10 devops.log
 ```
 
