@@ -133,7 +133,7 @@ grep -i "error" Linux_2k.log
 
 #### **Extract timestamps and log levels using `awk`**
 ```bash
-awk '{print $1, $2, $3}' Linux_2k.log  # Adjust fields as needed
+awk '{print $1, $2, $3}' devops.log  # Adjust fields as needed
 ```
 
 ### 3. **Find the Most Frequent Log Entry**
