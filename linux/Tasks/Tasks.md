@@ -8,8 +8,8 @@
 
 ### 1. **Create a User (`devops_user`) and Add to a Group (`devops_team`)**
 ```bash
-sudo groupadd devops_team   # Create the group if it doesn’t exist
-sudo useradd -m -G devops_team devops_user  # Create user and add to group
+sudo groupadd devops_team   
+sudo useradd -m -G devops_team devops_user  
 ```
 
 ### 2. **Set a Password for `devops_user`**
@@ -133,7 +133,7 @@ grep -i "error" Linux_2k.log
 
 #### **Extract timestamps and log levels using `awk`**
 ```bash
-awk '{print $1, $2, $3}' devops.log  # Adjust fields as needed
+awk '{print $1, $2, $3}' devops.log  
 ```
 
 ### 3. **Find the Most Frequent Log Entry**
