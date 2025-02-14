@@ -1,4 +1,3 @@
-TASK 2
 
 # **Linux Permissions Task**
 
