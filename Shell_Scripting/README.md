@@ -43,7 +43,7 @@ chmod 777 script.sh
 ## **📌Note**
 ### **User Management Script**
 
-I have created a script in the `user.sh` repository of GitHub for managing user accounts, including adding, deleting, modifying, and listing user information. This script provides a simple way to manage system users with command-line options.
+I have created a script in the `User_Script` repository of GitHub for managing user accounts, including adding, deleting, modifying, and listing user information. This script provides a simple way to manage system users with command-line options.
 
 
 
