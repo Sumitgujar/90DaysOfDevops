@@ -1,5 +1,3 @@
-TASK 1
-
 
 # **Linux User & SSH Configuration Task**
 
