@@ -14,13 +14,13 @@ Run the script as follow:
 
 ### 1. Display Help
 ```
-sudo ./user.sh -h
+sudo ./user_management.sh -h
 ```
 This will display usage information and available options.
 
 ### 2. Create a New User
 ```bash
-sudo ./user.sh -c
+sudo ./user_management.sh -c
 ```
 - You will be prompted to enter a username.
 - If the username is available, you will be prompted to enter a password.
@@ -35,7 +35,7 @@ User 'testuser' created successfully.
 
 ### 3. Delete an Existing User
 ```bash
-sudo ./user.sh -d
+sudo ./user_management.sh -d
 ```
 - You will be prompted to enter the username of the account to delete.
 - If the username exists, the account will be removed and a confirmation message will be displayed.
@@ -48,7 +48,7 @@ User 'testuser' deleted successfully.
 
 ### 4. Reset a User's Password
 ```bash
-sudo ./user.sh -r
+sudo ./user_management.sh -r
 ```
 - You will be prompted to enter the username and a new password.
 - If the username exists, the password will be updated successfully.
@@ -62,7 +62,7 @@ Password for user 'testuser' reset successfully.
 
 ### 5. List All Users
 ```bash
-sudo ./user.sh -l
+sudo ./user_management.sh -l
 ```
 - This will list all user accounts.
 
